@@ -1,0 +1,52 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor Files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+*.tmproj
+*.tmproject
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Packages
+node_modules/
+vendor/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+composer.phar
+
+# Temporary files
+tmp/
+temp/
+
+# WordPress specific
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Environment files
+.env
+.env.*
+!.env.example 
